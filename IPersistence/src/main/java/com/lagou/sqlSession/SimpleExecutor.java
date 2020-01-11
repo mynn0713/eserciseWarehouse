@@ -18,25 +18,8 @@ import java.util.List;
 
 public class SimpleExecutor implements Executor {
     @Override
-    public <E> List<E> query(Configuration configuration, MappedStatement mappedStatement, Object... params) throws SQLException, ClassNotFoundException, NoSuchFieldException, IllegalAccessException, InstantiationException, IntrospectionException, InvocationTargetException {
-        Connection connection = configuration.getDataSource().getConnection();
-        String sql = mappedStatement.getSql();
-        BoundSql boundSql = getBoundSql(sql);
-
-        String paramterType = mappedStatement.getParamterType();
-        Class<?> paramterTypeClass = getClassType(paramterType);
-
-        PreparedStatement preparedStatement = connection.prepareStatement(boundSql.getSqlText());
-        List<ParameterMapping> parameterMappings = boundSql.getParameterMappings();
-        for (int i = 0 ; i < parameterMappings.size() ; i++) {
-            ParameterMapping parameterMapping = parameterMappings.get(i);
-            String content = parameterMapping.getContent();
-
-            Field declaredField = paramterTypeClass.getDeclaredField(content);
-            declaredField.setAccessible(true);
-            Object o = declaredField.get(params[0]);
-            preparedStatement.setObject(i+1,o);
-        }
+    public <E> List<E> query(Configuration configuration, MappedStatement mappedStatement, Object... params) throws Exception {
+        PreparedStatement preparedStatement = createPreparedStatement(configuration, mappedStatement, params);
 
         ResultSet resultSet = preparedStatement.executeQuery();
 
@@ -61,24 +44,21 @@ public class SimpleExecutor implements Executor {
     }
     @Override
     public Integer insert(Configuration configuration, MappedStatement mappedStatement, Object... params) throws Exception {
-        Connection connection = configuration.getDataSource().getConnection();
-        String sql = mappedStatement.getSql();
-        BoundSql boundSql = getBoundSql(sql);
+        PreparedStatement preparedStatement = createPreparedStatement(configuration, mappedStatement, params);
 
-        String paramterType = mappedStatement.getParamterType();
-        Class<?> paramterTypeClass = getClassType(paramterType);
+        int resultSet = preparedStatement.executeUpdate();
+        return resultSet;
+    }
+    @Override
+    public Integer updateById(Configuration configuration, MappedStatement mappedStatement, Object... params) throws Exception {
+        PreparedStatement preparedStatement = createPreparedStatement(configuration, mappedStatement, params);
 
-        PreparedStatement preparedStatement = connection.prepareStatement(boundSql.getSqlText());
-        List<ParameterMapping> parameterMappings = boundSql.getParameterMappings();
-        for (int i = 0 ; i < parameterMappings.size() ; i++) {
-            ParameterMapping parameterMapping = parameterMappings.get(i);
-            String content = parameterMapping.getContent();
-
-            Field declaredField = paramterTypeClass.getDeclaredField(content);
-            declaredField.setAccessible(true);
-            Object o = declaredField.get(params[0]);
-            preparedStatement.setObject(i+1,o);
-        }
+        int resultSet = preparedStatement.executeUpdate();
+        return resultSet;
+    }
+    @Override
+    public Integer deleteById(Configuration configuration, MappedStatement mappedStatement, Object... params) throws Exception {
+        PreparedStatement preparedStatement = createPreparedStatement(configuration, mappedStatement, params);
 
         int resultSet = preparedStatement.executeUpdate();
         return resultSet;
@@ -98,5 +78,27 @@ public class SimpleExecutor implements Executor {
         List<ParameterMapping> parameterMappings = parameterMappingTokenHandler.getParameterMappings();
         BoundSql boundSql = new BoundSql(sqlText, parameterMappings);
         return boundSql;
+    }
+
+    private PreparedStatement createPreparedStatement(Configuration configuration, MappedStatement mappedStatement, Object... params) throws Exception {
+        Connection connection = configuration.getDataSource().getConnection();
+        String sql = mappedStatement.getSql();
+        BoundSql boundSql = getBoundSql(sql);
+
+        String paramterType = mappedStatement.getParamterType();
+        Class<?> paramterTypeClass = getClassType(paramterType);
+
+        PreparedStatement preparedStatement = connection.prepareStatement(boundSql.getSqlText());
+        List<ParameterMapping> parameterMappings = boundSql.getParameterMappings();
+        for (int i = 0 ; i < parameterMappings.size() ; i++) {
+            ParameterMapping parameterMapping = parameterMappings.get(i);
+            String content = parameterMapping.getContent();
+
+            Field declaredField = paramterTypeClass.getDeclaredField(content);
+            declaredField.setAccessible(true);
+            Object o = declaredField.get(params[0]);
+            preparedStatement.setObject(i+1,o);
+        }
+        return preparedStatement;
     }
 }

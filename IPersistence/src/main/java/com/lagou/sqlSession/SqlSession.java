@@ -7,11 +7,15 @@ import java.util.List;
 
 public interface SqlSession {
     //查询所有
-    public <E> List<E> selectList(String statementId, Object... params) throws IllegalAccessException, IntrospectionException, InstantiationException, NoSuchFieldException, SQLException, InvocationTargetException, ClassNotFoundException;
+    public <E> List<E> selectList(String statementId, Object... params) throws IllegalAccessException, IntrospectionException, InstantiationException, NoSuchFieldException, SQLException, InvocationTargetException, ClassNotFoundException, Exception;
     //查询一个
-    public <T> T selectOne(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException;
+    public <T> T selectOne(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException, Exception;
     //插入对象
     public Integer insertObj(String statementId, Object... params) throws Exception;
+    //插入对象
+    public Integer updateById(String statementId, Object... params) throws Exception;
+    //插入对象
+    public Integer deleteById(String statementId, Object... params) throws Exception;
     //通过getMapper获取mapper接口的代理对象
     public <T> T getMappper(Class<?> mapperClass);
 }

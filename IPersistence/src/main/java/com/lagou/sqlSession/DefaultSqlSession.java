@@ -16,7 +16,7 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <E> List<E> selectList(String statementId, Object... params) throws IllegalAccessException, IntrospectionException, InstantiationException, NoSuchFieldException, SQLException, InvocationTargetException, ClassNotFoundException {
+    public <E> List<E> selectList(String statementId, Object... params) throws Exception {
         SimpleExecutor simpleExecutor = new SimpleExecutor();
         MappedStatement mappedStatement = configuration.getMappedStreamMap().get(statementId);
         List<E> list = simpleExecutor.query(configuration, mappedStatement, params);
@@ -24,7 +24,7 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <T> T selectOne(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+    public <T> T selectOne(String statementId, Object... params) throws Exception {
         List<Object> objects = selectList(statementId, params);
         if(objects.size() == 1){
             return (T) objects.get(0);
@@ -41,6 +41,20 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
+    public Integer updateById(String statementId, Object... params) throws Exception {
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MappedStatement mappedStatement = configuration.getMappedStreamMap().get(statementId);
+        return simpleExecutor.updateById(configuration, mappedStatement, params);
+    }
+
+    @Override
+    public Integer deleteById(String statementId, Object... params) throws Exception {
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MappedStatement mappedStatement = configuration.getMappedStreamMap().get(statementId);
+        return simpleExecutor.deleteById(configuration, mappedStatement, params);
+    }
+
+    @Override
     public <T> T getMappper(Class<?> mapperClass) {
         Object proxyInstance = Proxy.newProxyInstance(mapperClass.getClassLoader(), new Class[]{mapperClass}, new InvocationHandler() {
             @Override
@@ -54,8 +68,15 @@ public class DefaultSqlSession implements SqlSession {
                         return selectList(key, args);
                     }
                     return selectOne(key,args);
+                }else if(methodName.contains("insert")) {
+                    return insertObj(key,args);
+                }else if(methodName.contains("update")) {
+                    return updateById(key,args);
+                }else if(methodName.contains("delete")) {
+                    return deleteById(key,args);
+                }else{
+                    throw new Exception("未找到该标签的实现方法");
                 }
-                return insertObj(key, args);
             }
         });
         return (T) proxyInstance;

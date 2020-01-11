@@ -35,16 +35,42 @@ public class IPersistenceTest {
         InputStream resourceAsStream = Resources.getResourceAsStream("sqlMapperConfig.xml");
         SqlSessionFactory builder = new SqlSessionFactoryBuilder().builder(resourceAsStream);
         SqlSession sqlSession = builder.openSession();
-        User user = new User();
-        user.setId(999);
-        user.setUsername("张三999");
         IUserMapper mapper = sqlSession.getMappper(IUserMapper.class);
-        int successNum = mapper.insertObj(user);
-        System.out.println(successNum);
+        //新增
+        /*User user = new User();
+        user.setId(998);
+        user.setUsername("张三998");
+        int successInsertNum = mapper.insertObj(user);
+        System.out.println(successInsertNum);*/
 
         List<User> users = mapper.selectList();
         //List<User> users = sqlSession.selectList("user.selectList");
         for (User user1 : users) {
+            System.out.println(user1.getId()+":"+user1.getUsername());
+        }
+
+        //修改
+        User user2 = new User();
+        user2.setId(999);
+        user2.setUsername("张三666");
+        int successUpdateNum = mapper.updateById(user2);
+        System.out.println(successUpdateNum);
+
+        List<User> users2 = mapper.selectList();
+        //List<User> users = sqlSession.selectList("user.selectList");
+        for (User user1 : users2) {
+            System.out.println(user1.getId()+":"+user1.getUsername());
+        }
+
+        //删除
+        User user3 = new User();
+        user3.setId(999);
+        int successDelNum = mapper.deleteById(user3);
+        System.out.println(successDelNum);
+
+        List<User> users3 = mapper.selectList();
+        //List<User> users = sqlSession.selectList("user.selectList");
+        for (User user1 : users3) {
             System.out.println(user1.getId()+":"+user1.getUsername());
         }
     }

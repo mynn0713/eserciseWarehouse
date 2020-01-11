@@ -8,4 +8,8 @@ public interface IUserMapper {
     List<User> selectList();
 
     Integer insertObj(User user);
+
+    Integer updateById(User user);
+
+    Integer deleteById(User user);
 }
