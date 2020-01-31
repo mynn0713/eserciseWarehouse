@@ -1,6 +1,0 @@
-<mapper namespace="product">
-    <select id = "selectList">
-        select * from product
-    </select>
-
-</mapper>
