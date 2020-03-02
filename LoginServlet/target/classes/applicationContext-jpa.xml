@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/data/jpa
+                            http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+                           http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/tx
+                            http://www.springframework.org/schema/tx/spring-tx.xsd
+">
+
+    <!--dataSource在dao配置文件中配置了-->
+
+    <!--配置JPA的entityManagerFactory-->
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--映射对象包扫描-->
+        <property name="packagesToScan" value="com.lagou.edu.pojo"/>
+        <!--指定的jpa实现-->
+        <property name="persistenceProvider">
+            <bean class="org.hibernate.jpa.HibernatePersistenceProvider"></bean>
+        </property>
+        <!--配置jpa方言 传入jpa具体的实现-->
+        <property name="jpaDialect">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"></bean>
+        </property>
+
+        <!--实现provider的具体细节,hibernate框架的具体实现细节-->
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <!--是否根据pojo自动创建数据表-->
+                <property name="generateDdl" value="false"/>
+                <!--指定数据库-->
+                <property name="database" value="MYSQL"/>
+                <!--配置数据库方言
+                    hibernate可以自动拼接sql-->
+                <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect"/>
+                <!--是否打印sql-->
+                <property name="showSql" value="true"/>
+            </bean>
+        </property>
+    </bean>
+
+
+    <!--引用entityManagerFactory-->
+    <jpa:repositories base-package="com.lagou.edu.dao" entity-manager-factory-ref="entityManagerFactory"
+                      transaction-manager-ref="transactionManager"/>
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--&lt;!&ndash;5、声明式事务配置&ndash;&gt;
+    <tx:annotation-driven/>-->
+    <!--配置包扫描-->
+    <context:component-scan base-package="com.lagou.edu"/>
+</beans>

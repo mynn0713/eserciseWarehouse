@@ -1,0 +1,1127 @@
+2020-03-02 12:25:13 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 12:25:16 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 12:25:16 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 128ms. Found 1 repository interfaces.
+2020-03-02 12:25:16 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 12:25:17 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 12:25:17 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 12:25:17 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 12:25:17 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 12:25:17 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 12:25:18 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 12:25:18 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 12:25:19 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 12:25:19 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:25:19 [localhost-startStop-1] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resumeController': Unsatisfied dependency expressed through field 'resumeService'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy75'
+2020-03-02 12:25:19 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:25:19 [localhost-startStop-1] INFO  DruidDataSource:1863 - {dataSource-1} closed
+2020-03-02 12:25:19 [localhost-startStop-1] ERROR ContextLoader:313 - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resumeController': Unsatisfied dependency expressed through field 'resumeService'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy75'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) [spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy75'
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 24 more
+2020-03-02 12:26:38 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 12:26:40 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 12:26:40 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 168ms. Found 1 repository interfaces.
+2020-03-02 12:26:41 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 12:26:42 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 12:26:42 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 12:26:42 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 12:26:42 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 12:26:43 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 12:26:43 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 12:26:44 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 12:26:46 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 12:26:46 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:26:46 [localhost-startStop-1] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resumeController': Unsatisfied dependency expressed through field 'resumeService'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy76'
+2020-03-02 12:26:46 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:26:46 [localhost-startStop-1] INFO  DruidDataSource:1863 - {dataSource-1} closed
+2020-03-02 12:26:47 [localhost-startStop-1] ERROR ContextLoader:313 - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resumeController': Unsatisfied dependency expressed through field 'resumeService'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy76'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) [spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'resumeService' is expected to be of type 'com.lagou.edu.service.ResumeService' but was actually of type 'com.sun.proxy.$Proxy76'
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 25 more
+2020-03-02 12:37:35 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 12:37:37 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 12:37:37 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 137ms. Found 1 repository interfaces.
+2020-03-02 12:37:38 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 12:37:38 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 12:37:38 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 12:37:38 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 12:37:39 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 12:37:39 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 12:37:39 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 12:37:40 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 12:37:41 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 12:37:41 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:37:41 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 6297 ms
+2020-03-02 12:37:42 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 12:37:43 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1437 ms
+2020-03-02 12:38:24 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 12:43:10 [http-bio-8080-exec-6] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 12:47:09 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 12:47:12 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 12:47:12 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2020-03-02 12:47:13 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 12:47:14 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 12:47:14 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 12:47:14 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 12:47:14 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 12:47:15 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 12:47:15 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 12:47:16 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 12:47:16 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 12:47:16 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:47:17 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7805 ms
+2020-03-02 12:47:18 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 12:47:19 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1230 ms
+2020-03-02 12:47:28 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 12:56:45 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 12:56:48 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 12:56:48 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 188ms. Found 1 repository interfaces.
+2020-03-02 12:56:48 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 12:56:49 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 12:56:49 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 12:56:49 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 12:56:49 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 12:56:50 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 12:56:50 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 12:56:51 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 12:56:51 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 12:56:51 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 12:56:52 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 6891 ms
+2020-03-02 12:56:53 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 12:56:54 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 975 ms
+2020-03-02 12:57:12 [http-bio-8080-exec-3] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 13:06:10 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 13:06:12 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 13:06:12 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 166ms. Found 1 repository interfaces.
+2020-03-02 13:06:12 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 13:06:13 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 13:06:13 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 13:06:13 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 13:06:13 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 13:06:14 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 13:06:14 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 13:06:14 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 13:06:15 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 13:06:15 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 13:06:16 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 6416 ms
+2020-03-02 13:06:16 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 13:06:17 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1010 ms
+2020-03-02 13:06:32 [http-bio-8080-exec-3] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 13:11:00 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 13:11:02 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 13:11:02 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 118ms. Found 1 repository interfaces.
+2020-03-02 13:11:02 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 13:11:03 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 13:11:03 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 13:11:03 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 13:11:04 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 13:11:04 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 13:11:05 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 13:11:05 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 13:11:06 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 13:11:06 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 13:11:06 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 6427 ms
+2020-03-02 13:11:07 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 13:11:08 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1010 ms
+2020-03-02 13:19:22 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 13:19:25 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 13:19:25 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 175ms. Found 1 repository interfaces.
+2020-03-02 13:19:26 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 13:19:26 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 13:19:26 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 13:19:26 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 13:19:27 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 13:19:27 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 13:19:27 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 13:19:28 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 13:19:28 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 13:19:28 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 13:19:29 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7362 ms
+2020-03-02 13:19:29 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 13:19:31 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1411 ms
+2020-03-02 13:19:43 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 13:19:45 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 13:20:20 [http-bio-8080-exec-6] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 14:18:12 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 14:52:00 [http-bio-8080-exec-7] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 14:52:02 [http-bio-8080-exec-7] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 14:52:10 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeModifyView
+2020-03-02 15:11:26 [http-bio-8080-exec-5] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeModifyView
+2020-03-02 15:11:26 [http-bio-8080-exec-5] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:11:31 [http-bio-8080-exec-8] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:11:35 [http-bio-8080-exec-8] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 15:11:38 [http-bio-8080-exec-8] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:11:39 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeModifyView
+2020-03-02 15:11:42 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeModifyView
+2020-03-02 15:11:59 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeModifyView
+2020-03-02 15:19:36 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:19:39 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:19:39 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 151ms. Found 1 repository interfaces.
+2020-03-02 15:19:39 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:19:40 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:19:40 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:19:40 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:19:40 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:19:41 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:19:41 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:19:42 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:19:43 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:19:43 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:19:44 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7296 ms
+2020-03-02 15:19:44 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:19:44 [localhost-startStop-1] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete() mapped.
+2020-03-02 15:19:44 [localhost-startStop-1] ERROR DispatcherServlet:534 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1830) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 29 more
+2020-03-02 15:28:42 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:28:44 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:28:45 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 166ms. Found 1 repository interfaces.
+2020-03-02 15:28:45 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:28:46 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:28:46 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:28:46 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:28:47 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:28:47 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:28:47 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:28:48 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:28:49 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:28:49 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:28:50 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7939 ms
+2020-03-02 15:28:50 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:28:51 [localhost-startStop-1] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+2020-03-02 15:28:51 [localhost-startStop-1] ERROR DispatcherServlet:534 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1830) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 29 more
+2020-03-02 15:31:51 [http-bio-8080-exec-2] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:31:51 [http-bio-8080-exec-2] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+2020-03-02 15:31:51 [http-bio-8080-exec-2] ERROR DispatcherServlet:534 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1830) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 33 more
+2020-03-02 15:31:52 [http-bio-8080-exec-3] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:31:53 [http-bio-8080-exec-3] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+2020-03-02 15:31:53 [http-bio-8080-exec-3] ERROR DispatcherServlet:534 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.delete(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1830) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 33 more
+2020-03-02 15:33:14 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:33:16 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:33:17 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 158ms. Found 1 repository interfaces.
+2020-03-02 15:33:17 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:33:18 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:33:18 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:33:18 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:33:19 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:33:19 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:33:20 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:33:20 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:33:21 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:33:21 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:33:22 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7618 ms
+2020-03-02 15:33:22 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:33:22 [localhost-startStop-1] WARN  XmlWebApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.resumeModifyView(java.lang.Long) mapped.
+2020-03-02 15:33:22 [localhost-startStop-1] ERROR DispatcherServlet:534 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.resumeModifyView(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) [spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549) [tomcat-embed-core-7.0.47.jar:7.0.47]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'resumeController' method 
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.getList()
+to {GET /resume}: There is already 'resumeController' bean method
+public org.springframework.web.servlet.ModelAndView com.lagou.edu.controller.ResumeController.resumeModifyView(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165) ~[spring-webmvc-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1830) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.1.12.RELEASE.jar:5.1.12.RELEASE]
+	... 29 more
+2020-03-02 15:36:32 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:36:35 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:36:35 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 194ms. Found 1 repository interfaces.
+2020-03-02 15:36:35 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:36:37 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:36:37 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:36:37 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:36:37 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:36:38 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:36:38 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:36:38 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:36:39 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:36:39 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:36:40 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7813 ms
+2020-03-02 15:36:41 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:36:42 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1264 ms
+2020-03-02 15:39:14 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:39:17 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:39:17 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 192ms. Found 1 repository interfaces.
+2020-03-02 15:39:17 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:39:18 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:39:18 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:39:18 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:39:19 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:39:20 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:39:20 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:39:21 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:39:21 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:39:21 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:39:22 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7783 ms
+2020-03-02 15:39:22 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:39:24 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1302 ms
+2020-03-02 15:39:48 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:39:50 [http-bio-8080-exec-4] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-03-02 15:43:59 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:44:01 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:44:01 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 189ms. Found 1 repository interfaces.
+2020-03-02 15:44:01 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:44:02 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:44:02 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:44:02 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:44:03 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:44:03 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:44:04 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:44:05 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:44:06 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:44:06 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:44:06 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7905 ms
+2020-03-02 15:44:07 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:44:08 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1212 ms
+2020-03-02 15:44:16 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:44:24 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 15:44:31 [http-bio-8080-exec-5] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 15:44:31 [http-bio-8080-exec-6] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:46:18 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:46:21 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:46:21 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 254ms. Found 1 repository interfaces.
+2020-03-02 15:46:21 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:46:22 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:46:22 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:46:22 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:46:23 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:46:23 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:46:23 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:46:24 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:46:25 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:46:25 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:46:26 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7464 ms
+2020-03-02 15:46:26 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:46:27 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1148 ms
+2020-03-02 15:46:37 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 15:46:38 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 15:50:23 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:50:26 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:50:26 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 176ms. Found 1 repository interfaces.
+2020-03-02 15:50:26 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:50:27 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:50:27 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:50:27 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:50:28 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:50:28 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:50:29 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:50:29 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:50:30 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:50:30 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:50:31 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 8084 ms
+2020-03-02 15:50:31 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:50:33 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1207 ms
+2020-03-02 15:51:00 [http-bio-8080-exec-1] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'id' is not present]
+2020-03-02 15:51:44 [http-bio-8080-exec-2] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'id' is not present]
+2020-03-02 15:51:48 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 15:51:52 [http-bio-8080-exec-5] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'id' is not present]
+2020-03-02 15:52:27 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:52:29 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:52:29 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2020-03-02 15:52:30 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:52:30 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:52:31 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:52:31 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:52:31 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:52:31 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:52:32 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:52:32 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:52:34 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:52:34 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:52:34 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7562 ms
+2020-03-02 15:52:35 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:52:36 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1100 ms
+2020-03-02 15:52:44 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 15:56:03 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:56:06 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:56:06 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 183ms. Found 1 repository interfaces.
+2020-03-02 15:56:07 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:56:08 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:56:08 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:56:08 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:56:09 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:56:10 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:56:10 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:56:11 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:56:12 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:56:12 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:56:12 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 9170 ms
+2020-03-02 15:56:13 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:56:14 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1129 ms
+2020-03-02 15:56:22 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 15:58:07 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 15:58:09 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 15:58:10 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 235ms. Found 1 repository interfaces.
+2020-03-02 15:58:10 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 15:58:11 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 15:58:11 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 15:58:11 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 15:58:11 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 15:58:12 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 15:58:12 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 15:58:13 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 15:58:14 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 15:58:14 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 15:58:15 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7627 ms
+2020-03-02 15:58:15 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 15:58:16 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1252 ms
+2020-03-02 15:58:24 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 16:00:56 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 16:00:59 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 16:00:59 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 240ms. Found 1 repository interfaces.
+2020-03-02 16:00:59 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 16:01:00 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 16:01:00 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 16:01:00 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 16:01:00 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 16:01:01 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 16:01:01 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 16:01:02 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 16:01:03 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 16:01:03 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 16:01:03 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7161 ms
+2020-03-02 16:01:04 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 16:01:05 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1114 ms
+2020-03-02 16:01:15 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 18:30:07 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 18:30:10 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 18:30:10 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 166ms. Found 1 repository interfaces.
+2020-03-02 18:30:10 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 18:30:11 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 18:30:11 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 18:30:11 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 18:30:11 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 18:30:12 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 18:30:12 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 18:30:13 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 18:30:14 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 18:30:14 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 18:30:15 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7799 ms
+2020-03-02 18:30:15 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 18:30:16 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1018 ms
+2020-03-02 18:31:23 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 18:31:26 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 18:31:26 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 148ms. Found 1 repository interfaces.
+2020-03-02 18:31:26 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 18:31:27 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 18:31:27 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 18:31:27 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 18:31:27 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 18:31:28 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 18:31:28 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 18:31:29 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 18:31:30 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 18:31:30 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 18:31:31 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 8114 ms
+2020-03-02 18:31:31 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 18:31:32 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1150 ms
+2020-03-02 18:34:06 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 18:34:08 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 18:34:08 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 223ms. Found 1 repository interfaces.
+2020-03-02 18:34:09 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 18:34:09 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 18:34:09 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 18:34:09 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 18:34:10 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 18:34:11 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 18:34:11 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 18:34:12 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 18:34:12 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 18:34:12 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 18:34:13 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7623 ms
+2020-03-02 18:34:14 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 18:34:15 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1161 ms
+2020-03-02 18:38:44 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 18:38:46 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 18:38:47 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 296ms. Found 1 repository interfaces.
+2020-03-02 18:38:47 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 18:38:48 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 18:38:48 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 18:38:48 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 18:38:48 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 18:38:49 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 18:38:49 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 18:38:50 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 18:38:51 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 18:38:51 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 18:38:51 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7559 ms
+2020-03-02 18:38:52 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 18:38:53 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1127 ms
+2020-03-02 20:38:26 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 20:38:31 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 20:38:31 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 190ms. Found 1 repository interfaces.
+2020-03-02 20:38:31 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 20:38:32 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 20:38:32 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 20:38:32 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 20:38:33 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 20:38:33 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 20:38:34 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 20:38:34 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 20:38:35 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 20:38:35 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 20:38:36 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 10060 ms
+2020-03-02 20:38:37 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 20:38:38 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1204 ms
+2020-03-02 20:47:39 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 20:47:43 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 20:47:43 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 153ms. Found 1 repository interfaces.
+2020-03-02 20:47:43 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 20:47:44 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 20:47:44 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 20:47:44 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 20:47:45 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 20:47:45 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 20:47:45 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 20:47:46 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 20:47:48 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 20:47:48 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 20:47:48 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 9510 ms
+2020-03-02 20:47:49 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 20:47:50 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1116 ms
+2020-03-02 20:48:11 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 20:48:12 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 20:53:33 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 20:53:36 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 20:53:36 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 278ms. Found 1 repository interfaces.
+2020-03-02 20:53:36 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 20:53:37 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 20:53:37 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 20:53:37 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 20:53:37 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 20:53:38 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 20:53:38 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 20:53:38 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 20:53:39 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 20:53:39 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 20:53:40 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 6782 ms
+2020-03-02 20:53:40 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 20:53:42 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1250 ms
+2020-03-02 20:53:55 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 20:54:01 [http-bio-8080-exec-3] WARN  PageNotFound:1250 - No mapping for POST /resume/delete
+2020-03-02 21:00:01 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:00:06 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:00:06 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 279ms. Found 1 repository interfaces.
+2020-03-02 21:00:07 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:00:07 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:00:08 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:00:08 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:00:08 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:00:08 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:00:09 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:00:09 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:00:10 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:00:10 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:00:11 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 10413 ms
+2020-03-02 21:00:11 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:00:13 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1225 ms
+2020-03-02 21:02:43 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:02:46 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:02:46 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 217ms. Found 1 repository interfaces.
+2020-03-02 21:02:46 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:02:47 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:02:47 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:02:47 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:02:48 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:02:48 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:02:49 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:02:49 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:02:51 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:02:51 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:02:51 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 8242 ms
+2020-03-02 21:02:52 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:02:53 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1291 ms
+2020-03-02 21:03:14 [http-bio-8080-exec-3] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:03:17 [http-bio-8080-exec-4] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-03-02 21:05:37 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:05:39 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:05:39 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 152ms. Found 1 repository interfaces.
+2020-03-02 21:05:40 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:05:41 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:05:41 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:05:41 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:05:42 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:05:42 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:05:42 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:05:43 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:05:44 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:05:44 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:05:45 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7957 ms
+2020-03-02 21:05:45 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:05:47 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1389 ms
+2020-03-02 21:06:17 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:06:19 [http-bio-8080-exec-4] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:06:21 [http-bio-8080-exec-6] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeTable
+2020-03-02 21:06:55 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:06:58 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:06:58 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 177ms. Found 1 repository interfaces.
+2020-03-02 21:06:58 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:06:59 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:06:59 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:06:59 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:06:59 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:07:00 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:07:00 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:07:01 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:07:02 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:07:02 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:07:02 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7315 ms
+2020-03-02 21:07:03 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:07:04 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 996 ms
+2020-03-02 21:07:56 [http-bio-8080-exec-3] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:07:58 [http-bio-8080-exec-5] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeTable
+2020-03-02 21:10:11 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:10:13 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:10:13 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 149ms. Found 1 repository interfaces.
+2020-03-02 21:10:14 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:10:14 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:10:15 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:10:15 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:10:15 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:10:16 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:10:16 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:10:17 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:10:18 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:10:18 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:10:18 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7738 ms
+2020-03-02 21:10:19 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:10:20 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1188 ms
+2020-03-02 21:11:08 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:11:12 [http-bio-8080-exec-4] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:11:18 [http-bio-8080-exec-7] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-02 21:15:41 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:15:43 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:15:55 [http-bio-8080-exec-2] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-02 21:18:11 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:18:15 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:18:15 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 142ms. Found 1 repository interfaces.
+2020-03-02 21:18:15 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:18:16 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:18:16 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:18:16 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:18:17 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:18:17 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:18:17 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:18:18 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:18:19 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:18:19 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:18:20 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 8988 ms
+2020-03-02 21:18:21 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:18:22 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1098 ms
+2020-03-02 21:18:46 [http-bio-8080-exec-1] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:18:47 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:18:49 [http-bio-8080-exec-5] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:18:58 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:19:04 [http-bio-8080-exec-6] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:19:06 [http-bio-8080-exec-8] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 21:21:58 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /resume/resumeAdd
+2020-03-02 21:21:58 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:22:25 [http-bio-8080-exec-4] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:22:39 [http-bio-8080-exec-9] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:24:55 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:24:59 [http-bio-8080-exec-10] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:25:49 [http-bio-8080-exec-8] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:36:26 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:36:30 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:36:30 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 202ms. Found 1 repository interfaces.
+2020-03-02 21:36:31 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:36:31 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:36:31 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:36:31 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:36:32 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:36:32 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:36:32 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:36:33 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:36:34 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:36:34 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:36:35 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 9087 ms
+2020-03-02 21:36:35 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:36:37 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1257 ms
+2020-03-02 21:36:50 [http-bio-8080-exec-2] WARN  PageNotFound:1250 - No mapping for GET /favicon.ico
+2020-03-02 21:36:54 [http-bio-8080-exec-5] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:41:14 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:41:17 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:41:17 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 156ms. Found 1 repository interfaces.
+2020-03-02 21:41:17 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:41:18 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:41:19 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:41:19 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:41:19 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:41:19 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:41:20 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:41:20 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:41:22 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:41:22 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:41:22 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 8115 ms
+2020-03-02 21:41:23 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:41:24 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1637 ms
+2020-03-02 21:42:09 [http-bio-8080-exec-1] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:46:31 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:46:37 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:46:37 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 276ms. Found 1 repository interfaces.
+2020-03-02 21:46:38 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:46:38 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:46:38 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:46:38 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:46:39 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:46:40 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:46:40 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:46:41 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:46:42 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:46:42 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:46:43 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 11657 ms
+2020-03-02 21:46:43 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:46:44 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1196 ms
+2020-03-02 21:46:48 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:51:01 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:51:04 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:51:04 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 242ms. Found 1 repository interfaces.
+2020-03-02 21:51:05 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:51:05 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:51:05 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:51:05 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:51:06 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:51:06 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:51:07 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:51:07 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:51:08 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:51:08 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:51:09 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7710 ms
+2020-03-02 21:51:09 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:51:10 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1014 ms
+2020-03-02 21:51:21 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:52:24 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:52:26 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:52:27 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 202ms. Found 1 repository interfaces.
+2020-03-02 21:52:27 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:52:27 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:52:28 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:52:28 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:52:28 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:52:29 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:52:29 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:52:30 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:52:31 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:52:31 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:52:31 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7178 ms
+2020-03-02 21:52:31 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:52:33 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1107 ms
+2020-03-02 21:52:46 [http-bio-8080-exec-3] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-02 21:54:37 [localhost-startStop-1] INFO  ContextLoader:271 - Root WebApplicationContext: initialization started
+2020-03-02 21:54:40 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 21:54:40 [localhost-startStop-1] INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 239ms. Found 1 repository interfaces.
+2020-03-02 21:54:40 [localhost-startStop-1] WARN  ClassPathMapperScanner:166 - No MyBatis mapper was found in '[com.lagou.mapper]' package. Please check your configuration.
+2020-03-02 21:54:41 [localhost-startStop-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-02 21:54:41 [localhost-startStop-1] INFO  Version:46 - HHH000412: Hibernate Core {5.4.0.Final}
+2020-03-02 21:54:41 [localhost-startStop-1] INFO  Environment:199 - HHH000206: hibernate.properties not found
+2020-03-02 21:54:42 [localhost-startStop-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 21:54:42 [localhost-startStop-1] INFO  DruidDataSource:947 - {dataSource-1} inited
+2020-03-02 21:54:42 [localhost-startStop-1] INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-03-02 21:54:43 [localhost-startStop-1] INFO  Version:30 - HV000001: Hibernate Validator 5.4.0.Final
+2020-03-02 21:54:44 [localhost-startStop-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 21:54:44 [localhost-startStop-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 21:54:45 [localhost-startStop-1] INFO  ContextLoader:307 - Root WebApplicationContext initialized in 7287 ms
+2020-03-02 21:54:45 [localhost-startStop-1] INFO  DispatcherServlet:525 - Initializing Servlet 'springmvc'
+2020-03-02 21:54:46 [localhost-startStop-1] INFO  DispatcherServlet:547 - Completed initialization in 1287 ms
+2020-03-02 21:55:12 [http-bio-8080-exec-2] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
