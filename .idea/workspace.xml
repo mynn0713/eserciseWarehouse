@@ -1,8 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="去掉mybatis作业">
+      <change afterPath="$PROJECT_DIR$/MyBlogService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/java/com/lagou/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/java/com/lagou/blog/controller/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/article_img/docker/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/article_img/docker/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/article_img/docker/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/article_img/docker/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/dropzone/4.3.0/min/basic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/dropzone/4.3.0/min/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/dropzone/4.3.0/min/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/jquery-multi-select/img/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/jquery-multi-select/jquery.quicksearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/jquery.steps/demo/css/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/img/editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/jquery.scrollto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/md.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/pagedown-extra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/md/js/pagedown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/css/mditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/css/mditor.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/css/mditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/674f50d287a8c48dc19ba404d20fe713.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/912ec66d7572ff821749319396470bde.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/a48ac41620cd818c5020d0f4302489ff.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/af7ae505a9eed503f8b8e6982036873e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/b06871f281fee6b241d60582ae9369b9.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/font/fee66e712a8a08eef5805a46892932ad.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/js/mditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/js/mditor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/js/mditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/mditor/js/mditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/multi-select/0.9.12/css/multi-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/multi-select/0.9.12/img/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/multi-select/0.9.12/js/jquery.multi-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2.dist.css/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2.dist.css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2.dist.css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2.dist.css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2.dist.css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2_locale_zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/3.4.8/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/dist/css/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/dist/css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/dist/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/dist/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/select2/dist/css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/tagsinput/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/tagsinput/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/to-markdown/3.1.0/to-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/back/plugins/toggles/toggles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/css/xcode.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/bg-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/bloglogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/img/rand/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/js/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/static/user/js/instantclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/templates/client/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/templates/client/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/main/resources/templates/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBlogService/src/test/java/com/lagou/blog/blog/BlogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +117,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="57" />
@@ -23,23 +130,23 @@
     <option name="height" value="671" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="eserciseWarehouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eserciseWarehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="eserciseWarehouse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="eserciseWarehouse" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,23 +200,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="760000" />
+    <option name="totallyTimeSpent" value="823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -117,19 +219,50 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去掉mybatis作业" />

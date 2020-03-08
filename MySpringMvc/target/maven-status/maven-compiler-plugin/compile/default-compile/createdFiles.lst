@@ -1,8 +1,0 @@
-com\lagou\annotation\MyRequestMapping.class
-com\lagou\annotation\MyRequestParam.class
-com\lagou\annotation\MyController.class
-com\lagou\annotation\Security.class
-com\lagou\annotation\MyService.class
-com\lagou\pogo\Handler.class
-com\lagou\annotation\MyAutowired.class
-com\lagou\servlet\MyDispatcherServlet.class
