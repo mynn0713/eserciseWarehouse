@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <service>
+        <connector prot="8080">
+            <engine>
+                <host name="localhost" appBase="G:\MiniCat\yingdian\webapps">
+                    <context>dome1</context>
+                    <context>dome2</context>
+                </host>
+            </engine>
+        </connector>
+    </service>
+</server>

@@ -1,0 +1,1 @@
+需要将dome1和dome2打成jar包存放到host中的appBase的路径下，即可部署

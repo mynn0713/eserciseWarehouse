@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c4b4de8-db4c-4302-8a7e-8def57548ee7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="G:/MiniCat/yingdian/webapps/dome1/target/" />
+    <ignored path="G:/MiniCat/yingdian/webapps/dome2/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serverSource/Bootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2679">
+              <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MiniCat部署说明.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="45" selection-start-column="45" selection-end-column="45" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tomcat体系结构.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/server.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="75" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.apache.maven.plugin</find>
+      <find>dome1(</find>
+      <find>getResourceAsStream</find>
+      <find>servlet.</find>
+      <find>package com.lagou.servlet.server</find>
+      <find>\\</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/server.xml.tld" />
+        <option value="$PROJECT_DIR$/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/LagouServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Connector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/server.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Context.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/webapp/WEB-INF/web.xml" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/webapp/WEB-INF/web.xml" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/Dome1Controller.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/servlet/HttpServlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/HttpServlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/Servlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/servlet/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/WarPackageUtils.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/server/RequestProcessor.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Request.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/StaticResourceUtil.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/RequestProcessor.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/HttpServlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/HttpProtocolUtil.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/LagouServlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Request.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Response.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Servlet.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/StaticResourceUtil.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Server.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Bootstrap.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Bootstrap.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/servlet/Dome1Controller.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/Dome2Controller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Host.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utiles/aa.java" />
+        <option value="G:/MiniCat/yingdian/webapps/dome1/pom.xml" />
+        <option value="G:/MiniCat/yingdian/webapps/dome2/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utiles/JarDir.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utiles/WarPackageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serverSource/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/MiniCat部署说明.md" />
+        <option value="$PROJECT_DIR$/Tomcat体系结构.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/MAVEN/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dome1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dome1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dome2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dome2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Minicat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Minicat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="57" />
+    <option name="width" value="1346" />
+    <option name="height" value="671" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Minicat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Minicat" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lagou.servlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MiniCat\yingdian\webapps\dome2\src\main\java\com\lagou" />
+      <recent name="G:\MiniCat\yingdian\webapps\dome1\src\main\java\com\lagou" />
+      <recent name="G:\MiniCat\yingdian\webapps\dome2\src\main\java\com\lagou\servlet" />
+      <recent name="G:\MiniCat\yingdian\webapps" />
+      <recent name="G:\workspace\Minicat\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Bootstrap">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSource.Bootstrap" />
+      <module name="Minicat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serverSource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JarDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utiles.JarDir" />
+      <module name="Minicat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.JarDir" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c4b4de8-db4c-4302-8a7e-8def57548ee7" name="Default Changelist" comment="" />
+      <created>1584582410426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584582410426</updated>
+      <workItem from="1584582416740" duration="234000" />
+      <workItem from="1584582818318" duration="11258000" />
+      <workItem from="1584749316831" duration="33542000" />
+      <workItem from="1585148847523" duration="1484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46518000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="SOQL Query" />
+      <window_info anchor="bottom" id="Anonymous Apex" />
+      <window_info anchor="bottom" id="Log Analyzer" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.45335516" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.4893617" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.41571194" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/serverSource/Bootstrap.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utiles/WarPackageUtil.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utiles/JarDir.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utiles/JarDir.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>new URLClassLoader(new URL[] {u})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new URLClassLoader(new URL[]{url})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loader.loadClass(&quot;com/lagou/servlet/Dome1Controller&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loader.loadClass(&quot;com/lagou/servlet/Dome1Controller.class&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loader.loadClass(names)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>warPath+ version + suffix</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jar = new JarFile(&quot;G://MiniCat//yingdian//webapps//dome1.war&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jar = new JarFile(&quot;G://MiniCat//yingdian//webapps&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jar = new JarFile(&quot;G:/MiniCat/yingdian/webapps&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/server/RequestProcessor.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/HttpServlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/HttpProtocolUtil.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/LagouServlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Request.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/RequestProcessor.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Response.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Servlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/StaticResourceUtil.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Connector.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Context.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Engine.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Host.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Service.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/pojo/Server.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Engine.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Service.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Connector.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Host.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Context.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/pojo/Server.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/server/Bootstrap.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/HttpServlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/StaticResourceUtil.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Request.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/LagouServlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Servlet.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/RequestProcessor.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Response.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/Bootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/server/HttpProtocolUtil.java" />
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/src/main/java/com/lagou/servlet/Dome2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/java/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="213" column="54" lean-forward="true" selection-start-line="213" selection-start-column="54" selection-end-line="213" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="653" column="26" selection-start-line="653" selection-start-column="26" selection-end-line="653" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/jdk/internal/loader/URLClassPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="156" column="25" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="25" />
+          <folding>
+            <element signature="e#5591#5592#0" expanded="true" />
+            <element signature="e#5628#5629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk-11.0.5/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1015" selection-start-line="1015" selection-end-line="1015" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/MiniCat/yingdian/webapps/dome1/src/main/java/com/lagou/servlet/Dome1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utiles/WarPackageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#876#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Host.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utiles/JarDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#824#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serverSource/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/server.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiniCat部署说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="45" selection-start-column="45" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat体系结构.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Minicat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
