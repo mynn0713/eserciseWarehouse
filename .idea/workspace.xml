@@ -1,135 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="提交Tomcat作业">
-      <change afterPath="$PROJECT_DIR$/demo-1.0.1-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/configuration/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/controller/ResumeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/interceptor/LoginIntercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/pojo/Resume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/repository/ResumeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/service/IResumeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/java/com/example/service/ResumeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/webapp/WEB-INF/jsp/login/sysLogin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/webapp/WEB-INF/jsp/resume/resumeAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/webapp/WEB-INF/jsp/resume/resumeModify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/webapp/WEB-INF/jsp/resume/resumeTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demosss/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tb_resume.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/测试说明.md" afterDir="false" />
+    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/分布式任务管理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分布式任务调度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分布式调度.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.tomcat整体流程.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.server容器结构图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/1.tomcat整体流程.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/2.server容器结构图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/MiniCat部署说明.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/Minicat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Connector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Host.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/pojo/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/Bootstrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/HttpProtocolUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/HttpServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/LagouServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/RequestProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/serverSource/StaticResourceUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/utiles/JarDir.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/java/utiles/WarPackageUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/resources/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/src/main/resources/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/Minicat-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/META-INF/Minicat.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Connector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Host.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/pojo/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/Bootstrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/HttpProtocolUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/HttpServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/LagouServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/RequestProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/serverSource/StaticResourceUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/utiles/JarDir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/utiles/WarPackageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/classes/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demosss/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minicat/tom体系结构.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/src/main/java/com/lagou/servlet/Dome1Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demosss/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/classes/META-INF/dome1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/classes/com/lagou/servlet/Dome1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/classes/META-INF/dome1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/classes/com/lagou/servlet/Dome1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/lib/Minicat-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/lib/jaxen-1.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/dome1-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/src/main/java/com/lagou/servlet/Dome2Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/classes/META-INF/dome2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/classes/com/lagou/servlet/Dome2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/dome2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/classes/com/lagou/servlet/Dome2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/lib/Minicat-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/lib/jaxen-1.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/dome2-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dome2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat结构及原理.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/MyBlogService/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,7 +32,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demosss/src/main/java/com/example/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,6 +56,8 @@
         <option value="$PROJECT_DIR$/MyBlogService/pom.xml" />
         <option value="$PROJECT_DIR$/MyBlogService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot作业.md" />
+        <option value="$PROJECT_DIR$/demosss/src/main/java/com/example/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/分布式调度.md" />
       </list>
     </option>
   </component>
@@ -236,7 +127,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demosss" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -276,7 +167,7 @@
       <workItem from="1583895013846" duration="589000" />
       <workItem from="1584545210437" duration="802000" />
       <workItem from="1585192692223" duration="972000" />
-      <workItem from="1585996135620" duration="553000" />
+      <workItem from="1585996135620" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="去掉mybatis作业">
       <created>1580491800139</created>
@@ -320,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585192931013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交分布式集群模块作业">
+      <created>1585996847837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585996847837</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5312000" />
+    <option name="totallyTimeSpent" value="8563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,7 +252,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -423,7 +321,8 @@
     <MESSAGE value="去掉mybatis作业" />
     <MESSAGE value="提交springBoot作业" />
     <MESSAGE value="提交Tomcat作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交Tomcat作业" />
+    <MESSAGE value="提交分布式集群模块作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交分布式集群模块作业" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -435,5 +334,25 @@
     <entry file="file://$PROJECT_DIR$/MyBlogService/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/MyBlogService/src/main/java/com/lagou/blog/controller/HomePageController.java" />
     <entry file="file://$PROJECT_DIR$/springboot作业.md" />
+    <entry file="file://$PROJECT_DIR$/分布式调度.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demosss/src/main/java/com/example/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
