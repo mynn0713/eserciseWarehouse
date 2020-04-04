@@ -1,0 +1,26 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+  datasource:
+    url: jdbc:mysql:///hunbb_crod?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: hbb_dev
+    password: hbbdev123
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    cache: false
+    enabled: false
+server:
+  port: 8877
+  redis:
+    host: localhost
+    port: 6379
+    connectiontionTimeout: 5000
+    password:
+    database: 0
