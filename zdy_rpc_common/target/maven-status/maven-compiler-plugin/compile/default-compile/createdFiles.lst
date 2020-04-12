@@ -1,0 +1,6 @@
+com\lagou\rpc\RpcRequest.class
+com\lagou\rpc\RpcEncoder.class
+com\lagou\serializer\Serializer.class
+com\lagou\rpc\RpcDecoder.class
+com\lagou\serializer\JSONSerializer.class
+com\lagou\service\UserService.class
