@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyBlogService/blog.iml" filepath="$PROJECT_DIR$/MyBlogService/blog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/eserciseWarehouse.iml" filepath="$PROJECT_DIR$/.idea/eserciseWarehouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-api/demo-api.iml" filepath="$PROJECT_DIR$/demo-api/demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" filepath="$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-study/dubbo-study.iml" filepath="$PROJECT_DIR$/dubbo-study/dubbo-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-work.iml" filepath="$PROJECT_DIR$/.idea/dubbo-work.iml" />
     </modules>
   </component>
 </project>

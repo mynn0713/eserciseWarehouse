@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--过滤器配置-->
+    <dubbo:provider filter="studyFilter" />
+
+    <!--dubbo应用程序命名-->
+    <dubbo:application name="dubbo-demo-study"/>
+    <!--dubbo注册地址-->
+    <dubbo:registry address="zookeeper://192.168.0.51:2181"/>
+    <!--dubbo协议地址-->
+    <dubbo:protocol name="dubbo" port="20882"/>
+    <!--接口声明-->
+    <dubbo:service interface="com.lagou.api.service.StudyService" ref="studyService"/>
+    <bean id="studyService" class="com.lagou.service.StudyServiceImpl"/>
+</beans>
