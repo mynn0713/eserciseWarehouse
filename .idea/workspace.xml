@@ -1,201 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dubbo-work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/src/main/java/com/lagou/api/filter/TransportIPFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/src/main/java/com/lagou/api/service/EatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/src/main/java/com/lagou/api/service/StudyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/classes/com/lagou/api/filter/TransportIPFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/classes/com/lagou/api/service/EatService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/classes/com/lagou/api/service/StudyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/demo-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/lagou/demoweb/DemoWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/lagou/demoweb/controller/SayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/resources/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/test/java/com/lagou/demoweb/DemoWebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/java/com/lagou/DubboEatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/java/com/lagou/eat/filter/TransportIPFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/java/com/lagou/service/EatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/src/main/resources/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/META-INF/dubbo-eat.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/com/lagou/DubboEatApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/com/lagou/eat/filter/TransportIPFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/com/lagou/service/EatServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/classes/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/dubbo-eat-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-eat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/dubbo-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/java/com/lagou/DubboStudyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/java/com/lagou/service/StudyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/java/com/lagou/study/filter/TransportIPFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/src/main/resources/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/META-INF/dubbo-study.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/com/lagou/DubboStudyApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/com/lagou/service/StudyServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/com/lagou/study/filter/TransportIPFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-study/target/classes/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/测试文档.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/rpc/RpcDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/rpc/RpcEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/rpc/RpcRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/serializer/JSONSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/serializer/Serializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/src/main/java/com/lagou/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/rpc/RpcDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/rpc/RpcEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/rpc/RpcRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/serializer/JSONSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/serializer/Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/classes/com/lagou/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/target/zdy_rpc_common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_common/zdy_rpc_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/src/main/java/com/lagou/client/ClientBootStrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/src/main/java/com/lagou/client/RpcConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/src/main/java/com/lagou/client/UserClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/classes/com/lagou/client/ClientBootStrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/classes/com/lagou/client/RpcConsumer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/classes/com/lagou/client/RpcConsumer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/classes/com/lagou/client/RpcConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/classes/com/lagou/client/UserClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_consumer/zdy_rpc_consumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/src/main/java/com/lagou/ServerBootstrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/src/main/java/com/lagou/server/UserServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/src/main/java/com/lagou/server/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/target/classes/com/lagou/ServerBootstrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/target/classes/com/lagou/server/UserServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/target/classes/com/lagou/server/UserServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/target/classes/com/lagou/server/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdy_rpc_provider/zdy_rpc_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/demo-api.iml" afterDir="false" />
-    </list>
+    <list default="true" id="6dd948ff-17f9-455e-99ae-0822b2456a65" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/demo-web/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-study/target/" />
@@ -227,6 +33,9 @@
       <find>transportIPFilter</find>
       <find>192.168.0.104</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -472,10 +281,18 @@
       <workItem from="1589258964475" duration="21185000" />
       <workItem from="1589293936583" duration="4891000" />
     </task>
+    <task id="LOCAL-00001" summary="dubbo作业">
+      <created>1589299437584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589299437584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47568000" />
+    <option name="totallyTimeSpent" value="48048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +324,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.38360655" />
       <window_info anchor="bottom" id="Anonymous Apex" order="11" />
       <window_info anchor="bottom" id="Log Analyzer" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -516,7 +333,7 @@
       <window_info anchor="bottom" id="Spring" order="16" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Messages" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.38360655" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49924356" visible="true" weight="0.38360655" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,6 +364,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dubbo作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

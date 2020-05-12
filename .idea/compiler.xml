@@ -14,7 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-api" target="1.8" />
-      <module name="demo-web" target="11" />
+      <module name="demo-web" target="1.8" />
       <module name="dubbo-eat" target="1.8" />
       <module name="dubbo-study" target="1.8" />
     </bytecodeTargetLevel>
