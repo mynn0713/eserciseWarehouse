@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-api/demo-api.iml" filepath="$PROJECT_DIR$/demo-api/demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-tp/demo-tp.iml" filepath="$PROJECT_DIR$/demo-tp/demo-tp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" filepath="$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-study/dubbo-study.iml" filepath="$PROJECT_DIR$/dubbo-study/dubbo-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-tp/dubbo-tp.iml" filepath="$PROJECT_DIR$/dubbo-tp/dubbo-tp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-work.iml" filepath="$PROJECT_DIR$/.idea/dubbo-work.iml" />
     </modules>
   </component>

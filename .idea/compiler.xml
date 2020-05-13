@@ -7,23 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-api" />
-        <module name="dubbo-eat" />
+        <module name="demo-tp" />
         <module name="demo-web" />
+        <module name="dubbo-eat" />
         <module name="dubbo-study" />
+        <module name="dubbo-tp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo-api" target="1.8" />
-      <module name="demo-web" target="1.8" />
+      <module name="demo-api" target="1.5" />
+      <module name="demo-tp" target="1.8" />
+      <module name="demo-web" target="11" />
       <module name="dubbo-eat" target="1.8" />
       <module name="dubbo-study" target="1.8" />
+      <module name="dubbo-tp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo-web" options="-parameters" />
-      <module name="dubbo-eat" options="-parameters" />
-      <module name="dubbo-study" options="-parameters" />
+      <module name="demo-web" options="" />
+      <module name="dubbo-eat" options="" />
+      <module name="dubbo-study" options="" />
     </option>
   </component>
 </project>
