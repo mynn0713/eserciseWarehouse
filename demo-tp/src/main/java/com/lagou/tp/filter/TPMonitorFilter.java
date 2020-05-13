@@ -1,11 +1,13 @@
 package com.lagou.tp.filter;
 
+import org.apache.dubbo.common.extension.Activate;
 import org.apache.dubbo.rpc.*;
 
 /**
  * @Author : maoying
  * @Date : 2020/5/13 13:21
  */
+@Activate
 public class TPMonitorFilter implements Filter {
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
@@ -20,11 +22,11 @@ public class TPMonitorFilter implements Filter {
             Long endTime = System.currentTimeMillis();
             System.out.println("远程调用结束："+endTime);
             Long consume = endTime - startTime;
-            RpcContext.getContext().setAttachment("consume",consume);
+            RpcContext.getContext().setAttachment("consume",consume.toString());
             System.out.println("总耗时："+consume+"ms");
-
-            Long sumRrunTime = Long.valueOf(RpcContext.getContext().getAttachment("sumRrunTime"))+consume;
-            RpcContext.getContext().setAttachment("sumRrunTime",sumRrunTime);
+            Long sumRrunTime = Long.valueOf(RpcContext.getContext().getAttachment("sumRrunTime")==null
+                    ?"0":RpcContext.getContext().getAttachment("sumRrunTime"))+consume;
+            RpcContext.getContext().setAttachment("sumRrunTime",sumRrunTime.toString());
         }
 
         return result;

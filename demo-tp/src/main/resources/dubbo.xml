@@ -10,7 +10,8 @@
     <!--dubbo应用程序命名-->
     <dubbo:application name="demo-tp"/>
     <!--dubbo注册地址-->
-    <dubbo:registry address="zookeeper://192.168.48.142:2181"/>
+    <dubbo:registry address="zookeeper://192.168.0.51:2181"/>
+    <!--<dubbo:registry address="zookeeper://192.168.48.142:2181"/>-->
     <!--dubbo协议地址-->
     <dubbo:protocol name="dubbo" port="20885"/>
     <!--接口声明-->

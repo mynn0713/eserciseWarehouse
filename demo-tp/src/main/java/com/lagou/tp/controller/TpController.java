@@ -6,9 +6,7 @@ import org.apache.dubbo.rpc.RpcContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import javax.servlet.http.HttpServletRequest;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -23,13 +21,40 @@ public class TpController {
     public void sayHello(){
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo.xml");
         context.start();
-        TpService eatService = (TpService)context.getBean("tpService");
+        TpService tpService = (TpService)context.getBean("tpService");
         ThreadPoolExecutor executor = new ThreadPoolExecutor(10, 100, 1000, TimeUnit.MILLISECONDS,
                 new PriorityBlockingQueue<Runnable>(), Executors.defaultThreadFactory(),new ThreadPoolExecutor.AbortPolicy());
 
         MonitorWaterLineCalculator monitor90 = new MonitorWaterLineCalculator(90);
         MonitorWaterLineCalculator monitor95 = new MonitorWaterLineCalculator(95);
-        /*executor.execute(() -> {
+        AtomicInteger index = new AtomicInteger();
+        executor.execute(new Runnable() {
+            @Override
+            public void run() {
+
+                //System.out.println(eatService.methodA());
+                while (true) {
+                    System.out.println("开始执行2000次调用,"+index);
+                    for (int i = 0; i < 2000; i++) {
+                        System.out.println(tpService.methodA());
+                        System.out.println(tpService.methodB());
+                        System.out.println(tpService.methodC());
+                        /*tpService.methodA();
+                        tpService.methodB();
+                        tpService.methodC();*/
+                    }
+                    System.out.println("结束执行2000次调用,"+ index);
+                    try {
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    index.getAndIncrement();
+                }
+            }
+        });
+
+        executor.execute(() -> {
             while (true) {
                 RpcContext.getContext().getAttachment("sumRrunTime");
                 try {
@@ -37,42 +62,16 @@ public class TpController {
                     System.out.println("tp90:"+monitor90.getResult());
                     monitor95.accumulate(Double.valueOf(RpcContext.getContext().getAttachment("consume")));
                     System.out.println("tp95:"+monitor95.getResult());
-                    Thread.sleep(5000);
-                } catch (InterruptedException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
+                }finally {
+                    try {
+                        Thread.sleep(5000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
-        });*/
-        AtomicInteger index = new AtomicInteger();
-        //System.out.println(eatService.methodA());
-        while (true) {
-            System.out.println("开始执行2000次调用,"+index);
-            for (int i = 0; i < 2000; i++) {
-                executor.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        System.out.println(eatService.methodA());
-                    }
-                });
-
-                executor.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        System.out.println(eatService.methodB());
-                    }
-                });
-
-                executor.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        System.out.println(eatService.methodC());
-                    }
-                });
-            }
-            System.out.println("结束执行2000次调用,"+ index);
-            index.getAndIncrement();
-        }
-
-
+        });
     }
 }
