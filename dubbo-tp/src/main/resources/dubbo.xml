@@ -7,6 +7,8 @@
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <!--dubbo filter-->
+    <dubbo:provider filter="ipFilter"/>
     <!--dubbo应用程序命名-->
     <dubbo:application name="dubbo-tp"/>
     <!--dubbo注册地址-->

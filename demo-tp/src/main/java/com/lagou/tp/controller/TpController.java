@@ -27,25 +27,9 @@ public class TpController {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(10, 100, 1000, TimeUnit.MILLISECONDS,
                 new PriorityBlockingQueue<Runnable>(), Executors.defaultThreadFactory(),new ThreadPoolExecutor.AbortPolicy());
 
-        MonitorWaterLineCalculator monitor90 = new MonitorWaterLineCalculator(90);
-        MonitorWaterLineCalculator monitor95 = new MonitorWaterLineCalculator(95);
-        /*executor.execute(() -> {
-            while (true) {
-                RpcContext.getContext().getAttachment("sumRrunTime");
-                try {
-                    monitor90.accumulate(Double.valueOf(RpcContext.getContext().getAttachment("consume")));
-                    System.out.println("tp90:"+monitor90.getResult());
-                    monitor95.accumulate(Double.valueOf(RpcContext.getContext().getAttachment("consume")));
-                    System.out.println("tp95:"+monitor95.getResult());
-                    Thread.sleep(5000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        });*/
         AtomicInteger index = new AtomicInteger();
         //System.out.println(eatService.methodA());
-        while (true) {
+        for (int j = 0 ; j < 10000 ;j++) {
             System.out.println("开始执行2000次调用,"+index);
             for (int i = 0; i < 2000; i++) {
                 executor.execute(new Runnable() {
@@ -72,7 +56,7 @@ public class TpController {
             System.out.println("结束执行2000次调用,"+ index);
             index.getAndIncrement();
         }
-
+        System.out.println("测试结束");
 
     }
 }

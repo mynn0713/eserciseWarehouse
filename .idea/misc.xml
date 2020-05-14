@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/dubbo-eat/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-tp/pom.xml" />
         <option value="$PROJECT_DIR$/demo-tp/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-filter/pom.xml" />
       </list>
     </option>
   </component>

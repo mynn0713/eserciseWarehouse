@@ -10,6 +10,7 @@
         <module name="demo-tp" />
         <module name="demo-web" />
         <module name="dubbo-eat" />
+        <module name="dubbo-filter" />
         <module name="dubbo-study" />
         <module name="dubbo-tp" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="demo-tp" target="1.8" />
       <module name="demo-web" target="11" />
       <module name="dubbo-eat" target="1.8" />
+      <module name="dubbo-filter" target="1.8" />
       <module name="dubbo-study" target="1.8" />
       <module name="dubbo-tp" target="1.8" />
     </bytecodeTargetLevel>
