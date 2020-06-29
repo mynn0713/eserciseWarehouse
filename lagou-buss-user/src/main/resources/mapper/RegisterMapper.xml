@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lagou.user.mapper.RegisterMapper">
+
+    <insert id="insertUser" parameterType="java.lang.String" useGeneratedKeys="true" keyProperty="id">
+        insert into lagou_token (email,token) values (#{email,jdbcType=VARCHAR},#{token,jdbcType=VARCHAR})
+    </insert>
+    <select id="selectUser" resultType="java.util.Map">
+        select * from lagou_token
+    </select>
+</mapper>

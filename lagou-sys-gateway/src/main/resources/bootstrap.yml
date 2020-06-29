@@ -1,0 +1,40 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: lagou-sys-gateway-9002
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # 是否和服务注册与发现组件结合，设置为 true 后可以直接使用应用名称调用服务
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: lagou-buss-user
+        uri: lb://LAGOU-BUSS-USER
+        predicates:
+        ## 转发地址格式为 /user/**
+        - Path= /api/user/**
+        filters:
+        - StripPrefix=1
+      - id: lagou-buss-code
+        uri: lb://LAGOU-BUSS-CODE
+        predicates:
+        ## 转发地址格式为 /code/**
+        - Path= /api/code/**
+        filters:
+        - StripPrefix=1
+      - id: lagou-buss-email
+        uri: lb://LAGOU-BUSS-EMAIL
+        predicates:
+          ## 转发地址格式为 /email/**
+          - Path= /api/email/**
+        filters:
+          - StripPrefix=1
+eureka:
+  instance:
+    prefer-ip-address: true #以IP地址注册到服务中心
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka

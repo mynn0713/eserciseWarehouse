@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-api/demo-api.iml" filepath="$PROJECT_DIR$/demo-api/demo-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-tp/demo-tp.iml" filepath="$PROJECT_DIR$/demo-tp/demo-tp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" filepath="$PROJECT_DIR$/dubbo-eat/dubbo-eat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-study/dubbo-study.iml" filepath="$PROJECT_DIR$/dubbo-study/dubbo-study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-tp/dubbo-tp.iml" filepath="$PROJECT_DIR$/dubbo-tp/dubbo-tp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-work.iml" filepath="$PROJECT_DIR$/.idea/dubbo-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-buss-code/lagou-buss-code.iml" filepath="$PROJECT_DIR$/lagou-buss-code/lagou-buss-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-buss-email/lagou-buss-email.iml" filepath="$PROJECT_DIR$/lagou-buss-email/lagou-buss-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-buss-user/lagou-buss-user.iml" filepath="$PROJECT_DIR$/lagou-buss-user/lagou-buss-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-sys-eureka-8761/lagou-sys-eureka-8761.iml" filepath="$PROJECT_DIR$/lagou-sys-eureka-8761/lagou-sys-eureka-8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-sys-eureka-8762/lagou-sys-eureka-8762.iml" filepath="$PROJECT_DIR$/lagou-sys-eureka-8762/lagou-sys-eureka-8762.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-sys-gateway/lagou-sys-gateway.iml" filepath="$PROJECT_DIR$/lagou-sys-gateway/lagou-sys-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-work.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-work.iml" />
     </modules>
   </component>
 </project>

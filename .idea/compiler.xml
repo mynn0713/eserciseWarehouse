@@ -2,34 +2,38 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo-api" />
-        <module name="demo-tp" />
-        <module name="demo-web" />
-        <module name="dubbo-eat" />
-        <module name="dubbo-filter" />
-        <module name="dubbo-study" />
-        <module name="dubbo-tp" />
+        <module name="lagou-buss-email" />
+        <module name="lagou-buss-code" />
+        <module name="lagou-sys-gateway" />
+        <module name="lagou-buss-user" />
+        <module name="lagou-sys-eureka-8762" />
+        <module name="lagou-sys-eureka-8761" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo-api" target="1.5" />
-      <module name="demo-tp" target="1.8" />
-      <module name="demo-web" target="11" />
-      <module name="dubbo-eat" target="1.8" />
-      <module name="dubbo-filter" target="1.8" />
-      <module name="dubbo-study" target="1.8" />
-      <module name="dubbo-tp" target="1.8" />
+      <module name="lagou-buss-code" target="1.8" />
+      <module name="lagou-buss-email" target="1.8" />
+      <module name="lagou-buss-user" target="1.8" />
+      <module name="lagou-sys-eureka-8761" target="1.8" />
+      <module name="lagou-sys-eureka-8762" target="1.8" />
+      <module name="lagou-sys-gateway" target="1.8" />
+      <module name="spring-cloud-netflix-hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo-web" options="" />
-      <module name="dubbo-eat" options="" />
-      <module name="dubbo-study" options="" />
+      <module name="lagou-buss-code" options="-parameters" />
+      <module name="lagou-buss-email" options="-parameters" />
+      <module name="lagou-buss-user" options="-parameters" />
+      <module name="lagou-sys-eureka-8761" options="-parameters" />
+      <module name="lagou-sys-eureka-8762" options="-parameters" />
+      <module name="lagou-sys-gateway" options="-parameters" />
+      <module name="spring-cloud-netflix-hystrix" options="-parameters" />
     </option>
   </component>
 </project>

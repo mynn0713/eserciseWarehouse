@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/demo-tp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-eat" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-study" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-tp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-buss-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-buss-email/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-buss-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-sys-eureka-8761/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-sys-eureka-8762/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lagou-sys-gateway/src/main/java" charset="UTF-8" />
   </component>
 </project>
