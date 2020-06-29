@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+</head>
+
+<body>
+<script type="text/javascript" src="./jquery/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="./jquery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+  function getCode(){
+	  var email = document.getElementById('email').value;
+	  var password = document.getElementById('password').value;
+	  //var product = $('.email').val();
+	  //var product = $('.password').val();
+	  $.ajax({
+		//type:'get',
+		url:'http://192.168.145.128/api/code/create/'+email,
+		//data:{name:product},
+		success:function(res){
+		  alert('发送验证码成功！');
+		}
+	  })
+	}
+	
+  function loginUser(){
+	  var email = document.getElementById('email').value;
+	  var password = document.getElementById('password').value;
+	  var password_new = document.getElementById('password_new').value;
+	  var code = document.getElementById('code').value;
+	  if(password!=password_new){
+		alert("两次密码不统一，请重新输入！");
+		return;
+	  }
+	  //var product = $('.email').val();
+	  //var product = $('.password').val();
+	  $.ajax({
+		//type:'get',
+		url:'http://192.168.145.128/api/user/register/'+email+'/'+password+'/'+code,
+		//data:{name:product},
+		success:function(res){
+			//alert(res);
+			window.location.href = 'http://192.168.145.128/static/welcome.html?email='+email;
+		}
+	  })
+	}
+</script>
+<p>注册界面</p>
+
+  邮箱: <input type="text" id="email" /></br>
+  密码: <input type="text" id="password" /></br>
+  确认密码: <input type="text" id="password_new" /></br>
+  验证码: <input type="text" id="code" /><a onclick="getCode()">获取验证码</a></br>
+  <button type="button" id="tbnAjax" onclick="loginUser()">注册</button>
+</body>
+
+</html>

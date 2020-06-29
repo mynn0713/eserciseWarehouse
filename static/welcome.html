@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎界面</title>
+</head>
+<body>
+<p>欢迎界面</p>
+
+  <i id='email'></i>,欢迎登录系统
+</body>
+
+<script>
+	var data = window.location.href.split("?")[1].split("=")[1];
+	if(data == null || data == ''){
+		data = 'XXX';
+	}
+	document.getElementById('email').innerHTML = data;
+</script>
+</html>
