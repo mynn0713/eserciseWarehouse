@@ -9,8 +9,10 @@ public class RegisterServiceImpl implements RegisterService{
     @Autowired
     RegisterMapper registerMapper;
     @Override
-    public String userRegister(String email, String password, String code) {
-        String token = "email_"+email+":password_"+password;
+    public String userRegister(String email, String password, String code,String token) {
+        if(registerMapper.selectCodeInExpiretTime(email,code)<=0){
+            return "codeTimeOut";
+        }
         return registerMapper.insertUser(email,token)>0?"success":"fail";
     }
 }

@@ -8,5 +8,5 @@ public interface RegisterService {
      * @param code
      * @return
      */
-    String userRegister(String email, String password, String code);
+    String userRegister(String email, String password, String code,String token);
 }

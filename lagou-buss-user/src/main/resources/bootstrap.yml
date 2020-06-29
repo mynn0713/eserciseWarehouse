@@ -27,6 +27,8 @@ spring:
 mybatis:
   type-aliases-package: com.lagou.user.pojo #实体类包路径
   mapper-locations: classpath*:mapper/*.xml #mapper.xml路径
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 eureka:
   instance:
     prefer-ip-address: true #以IP地址注册到服务中心

@@ -9,4 +9,7 @@
     <select id="selectUser" resultType="java.util.Map">
         select * from lagou_token
     </select>
+    <select id="selectCodeInExpiretTime" parameterType="java.lang.String" resultType="java.lang.Integer">
+        SELECT count(0) FROM `lagou_auth_code` t where t.email = #{email} and t.`code` = #{code} and now() <![CDATA[ < ]]> t.`expiretime`
+    </select>
 </mapper>

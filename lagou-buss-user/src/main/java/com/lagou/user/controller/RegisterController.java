@@ -2,12 +2,15 @@ package com.lagou.user.controller;
 
 import com.lagou.user.service.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@RestController
 @RequestMapping("/user")
 public class RegisterController {
     @Autowired
@@ -18,11 +21,14 @@ public class RegisterController {
     public String userRegister(
             @PathVariable(name = "email")String email,
             @PathVariable(name = "password")String password,
-            @PathVariable(name = "code") String code){
+            @PathVariable(name = "code") String code,
+            HttpServletResponse response){
         System.out.println("email:"+email+",password"+password+",code"+code);
-        String result = registerService.userRegister(email, password, code);
+        String token = "email_"+email+":password_"+password;
+        response.setHeader("Authorization",token);
+        String result = registerService.userRegister(email, password, code, token);
         System.out.println(result);
-        return "redirect:http://192.168.145.128/static/welcome.html";
+        return result;
     }
 
     @RequestMapping("/isRegistered/{email}")
@@ -31,18 +37,23 @@ public class RegisterController {
         return "welcome";
     }
 
-    @CrossOrigin(origins = "web.test.com")
     @RequestMapping("/login/{email}/{password}")
     public String userLogin(
             @PathVariable(name = "email")String email,
             @PathVariable(name = "password")String password){
         System.out.println("email:"+email+",password"+password);
-        return "redirect:http://192.168.145.128/static/welcome.html";
+        return "success";
     }
 
     @RequestMapping("/info/{token}")
     public String userInfo(@PathVariable(name = "token")String token){
         System.out.println("token:"+token);
         return "welcome";
+    }
+
+    @RequestMapping("/badRegister")
+    public String badRegister(){
+        System.out.println("跳转登录页面");
+        return "badRegister";
     }
 }
