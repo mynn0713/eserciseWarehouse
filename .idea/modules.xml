@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lagou-buss-code/lagou-buss-code.iml" filepath="$PROJECT_DIR$/lagou-buss-code/lagou-buss-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-buss-email/lagou-buss-email.iml" filepath="$PROJECT_DIR$/lagou-buss-email/lagou-buss-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-buss-service-api/lagou-buss-service-api.iml" filepath="$PROJECT_DIR$/lagou-buss-service-api/lagou-buss-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-buss-user/lagou-buss-user.iml" filepath="$PROJECT_DIR$/lagou-buss-user/lagou-buss-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-sys-eureka-8761/lagou-sys-eureka-8761.iml" filepath="$PROJECT_DIR$/lagou-sys-eureka-8761/lagou-sys-eureka-8761.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-sys-eureka-8762/lagou-sys-eureka-8762.iml" filepath="$PROJECT_DIR$/lagou-sys-eureka-8762/lagou-sys-eureka-8762.iml" />

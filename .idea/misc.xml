@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/lagou-sys-eureka-8761/pom.xml" />
         <option value="$PROJECT_DIR$/lagou-buss-code/pom.xml" />
         <option value="$PROJECT_DIR$/lagou-buss-email/pom.xml" />
+        <option value="$PROJECT_DIR$/lagou-buss-service-api/pom.xml" />
       </list>
     </option>
   </component>

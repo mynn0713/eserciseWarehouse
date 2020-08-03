@@ -23,13 +23,43 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20 # 指定每个连接上PSCache的大小
       filters: stat,wall,log4j # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000 # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.145.128:8848
+      config:
+        server-addr: 192.168.145.128:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+    sentinel:
+      transport:
+        dashboard: 192.168.145.128:8084 # sentinel dashboard/console 地址
+        port: 8719
+  main:
+    allow-bean-definition-overriding: true
 #mybatis config
 mybatis:
   type-aliases-package: com.lagou.email.pojo #实体类包路径
   mapper-locations: classpath*:mapper/*.xml #mapper.xml路径
-eureka:
-  instance:
-    prefer-ip-address: true #以IP地址注册到服务中心
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+#eureka:
+#  instance:
+#    prefer-ip-address: true #以IP地址注册到服务中心
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  # 暴露健康接⼝的细节
+  endpoint:
+    health:
+      show-details: always
+dubbo:
+  registry:
+    # 挂载到 Spring Cloud 注册中⼼
+    address: spring-cloud://192.168.145.128
+  cloud:
+    # 订阅服务提供⽅的应⽤列表，订阅多个服务提供者使⽤ "," 连接
+    subscribed-services: lagou-buss-code

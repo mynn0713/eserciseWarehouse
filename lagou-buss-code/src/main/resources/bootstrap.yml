@@ -27,19 +27,54 @@ spring:
     loadbalancer:
       ribbon:
         enabled: true
-feign:
-  hystrix:
-    enabled: true
+    nacos:
+      discovery:
+        server-addr: 192.168.145.128:8848
+      config:
+        server-addr: 192.168.145.128:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+    sentinel:
+      transport:
+        dashboard: 192.168.145.128:8084 # sentinel dashboard/console 地址
+        port: 8719
+  main:
+    allow-bean-definition-overriding: true
+#feign:
+#  hystrix:
+#    enabled: true
 #mybatis config
 mybatis:
   type-aliases-package: com.lagou.code.pojo #实体类包路径
   mapper-locations: classpath*:mapper/*.xml #mapper.xml路径
-eureka:
-  instance:
-    prefer-ip-address: true #以IP地址注册到服务中心
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+#eureka:
+#  instance:
+#    prefer-ip-address: true #以IP地址注册到服务中心
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
 code:
   #验证码过期时间，单位分钟
   timeout: 5
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  # 暴露健康接⼝的细节
+  endpoint:
+    health:
+      show-details: always
+
+dubbo:
+  scan:
+    # dubbo 服务扫描基准包
+    base-packages: com.lagou.code.rpc
+  protocol:
+    # dubbo 协议
+    name: dubbo
+    # dubbo 协议端⼝（ -1 表示⾃增端⼝，从 20880 开始）
+    port: -1
+  registry:
+    # 挂载到 Spring Cloud 的注册中⼼
+    address: spring-cloud://192.168.145.128

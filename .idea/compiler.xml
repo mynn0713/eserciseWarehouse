@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lagou-buss-email" />
+        <module name="lagou-buss-service-api" />
         <module name="lagou-buss-code" />
         <module name="lagou-sys-gateway" />
         <module name="lagou-buss-user" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="lagou-buss-code" target="1.8" />
       <module name="lagou-buss-email" target="1.8" />
+      <module name="lagou-buss-service-api" target="1.8" />
       <module name="lagou-buss-user" target="1.8" />
       <module name="lagou-sys-eureka-8761" target="1.8" />
       <module name="lagou-sys-eureka-8762" target="1.8" />
@@ -29,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lagou-buss-code" options="-parameters" />
       <module name="lagou-buss-email" options="-parameters" />
+      <module name="lagou-buss-service-api" options="-parameters" />
       <module name="lagou-buss-user" options="-parameters" />
       <module name="lagou-sys-eureka-8761" options="-parameters" />
       <module name="lagou-sys-eureka-8762" options="-parameters" />

@@ -31,4 +31,5 @@ public class CodeController {
         System.out.println("email:"+email+",code="+code);
         return "welcome";
     }
+
 }
